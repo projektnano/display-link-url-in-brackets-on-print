@@ -1,0 +1,17 @@
+a[href^="http"]::after {
+
+content: " (" attr(href) ")";
+
+}
+
+/* EXAMPLE IF USED WITH CLASS */
+
+/*
+
+a.class-name[href^="http"]::after {
+
+content: " (" attr(href) ")";
+
+}
+
+*/
